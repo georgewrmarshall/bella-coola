@@ -1,5 +1,12 @@
-import React from "react"
+import React from 'react'
 
-export default function Home() {
-  return <div>Hello world!</div>
-}
+// Components
+import { Navbar, Layout, PageHome } from '../components'
+
+const IndexPage = () => (
+  <Layout>
+    <Navbar />
+    <PageHome />
+  </Layout>
+)
+export default IndexPage
