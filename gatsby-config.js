@@ -7,5 +7,16 @@
 module.exports = {
   /* Your site config here */
   pathPrefix: '/bella-coola',
-  plugins: [`gatsby-plugin-emotion`],
+  plugins: [
+    `gatsby-plugin-emotion`,
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `raleway\:400,900`, // you can also specify font weights and styles
+        ],
+        display: 'swap',
+      },
+    },
+  ],
 }

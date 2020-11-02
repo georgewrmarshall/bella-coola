@@ -35,7 +35,6 @@ const StyledHero = styled.section`
   }
 
   h1 {
-    font-family: ProximaNova-Bold;
     line-height: 1.3;
     font-size: 32px;
     @media (min-width: 640px) {

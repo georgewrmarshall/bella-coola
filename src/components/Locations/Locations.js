@@ -17,7 +17,6 @@ const StyledLocations = styled.section`
   h2,
   h3 {
     font-size: 24px;
-    font-family: ProximaNova-Bold;
     line-height: 1.3;
     @media (min-width: 640px) {
       font-size: 42px;
