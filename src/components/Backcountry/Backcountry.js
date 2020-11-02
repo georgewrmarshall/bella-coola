@@ -18,9 +18,14 @@ export const Backcountry = () => {
   return (
     <StyledBackcountry css={[tw`py-10`]}>
       <div css={[tw`container mx-auto px-8`]}>
-        <img src={blcLogoImg} alt="logo" css={[tw`mx-auto mb-8`]} />
+        <img src={blcLogoImg} alt="logo" css={[tw`mx-auto mb-8 w-20`]} />
         <p css={[tw`text-center mb-8`]}>
           These courses were designed and developed by{' '}
+          <a
+            href="https://backcountrylearning.com/"
+            target="_blank"
+            rel="noreferrer"
+          ></a>
           <strong>Backcountry Learning</strong>.
         </p>
         <img src={iconLeaf} alt="leaf" css={[tw`mx-auto`]} />
