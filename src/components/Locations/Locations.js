@@ -33,8 +33,18 @@ export const Locations = () => {
           safety briefing.
         </h2>
         <div css={[tw`-m-2 md:(flex justify-center flex-wrap)`]}>
+          <div css={[tw`p-2 sm:(w-1/2 p-5) md:(w-1/2 p-5) lg:(w-1/3)`]}>
+            <Card
+              title="Tweedsmuir Park Lodge"
+              imageSrc={tweedsmuirImg}
+              href="#"
+            />
+          </div>
           <div css={[tw`p-2 sm:(w-1/2 p-4) md:(w-1/2 p-4) lg:(w-1/3)`]}>
             <Card title="Eagle Lodge" imageSrc={eagleLodgeImg} href="#" />
+          </div>
+          <div css={[tw`p-2 sm:(w-1/2 p-5) md:(w-1/2 p-5) lg:(w-1/3)`]}>
+            <Card title="Pantheon Heli Ranch" imageSrc={pantheonImg} href="#" />
           </div>
           <div css={[tw`p-2 sm:(w-1/2 p-5) md:(w-1/2 p-5) lg:(w-1/3)`]}>
             <Card
@@ -44,19 +54,9 @@ export const Locations = () => {
             />
           </div>
           <div css={[tw`p-2 sm:(w-1/2 p-5) md:(w-1/2 p-5) lg:(w-1/3)`]}>
-            <Card title="Pantheon Heli Ranch" imageSrc={pantheonImg} href="#" />
-          </div>
-          <div css={[tw`p-2 sm:(w-1/2 p-5) md:(w-1/2 p-5) lg:(w-1/3)`]}>
             <Card
               title="Terra Nostra Guest Ranch"
               imageSrc={terraImg}
-              href="#"
-            />
-          </div>
-          <div css={[tw`p-2 sm:(w-1/2 p-5) md:(w-1/2 p-5) lg:(w-1/3)`]}>
-            <Card
-              title="Tweedsmuir Park Lodge"
-              imageSrc={tweedsmuirImg}
               href="#"
             />
           </div>
