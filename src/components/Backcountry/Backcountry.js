@@ -25,8 +25,10 @@ export const Backcountry = () => {
             href="https://backcountrylearning.com/"
             target="_blank"
             rel="noreferrer"
-          ></a>
-          <strong>Backcountry Learning</strong>.
+          >
+            <strong>Backcountry Learning</strong>
+          </a>
+          .
         </p>
         <img src={iconLeaf} alt="leaf" css={[tw`mx-auto`]} />
       </div>

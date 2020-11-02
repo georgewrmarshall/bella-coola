@@ -37,11 +37,15 @@ export const Locations = () => {
             <Card
               title="Tweedsmuir Park Lodge"
               imageSrc={tweedsmuirImg}
-              href="#"
+              href="http://www.backcountrylearning.com/bchs-tpl-bcl-sfty"
             />
           </div>
           <div css={[tw`p-2 sm:(w-1/2 p-4) md:(w-1/2 p-4) lg:(w-1/3)`]}>
-            <Card title="Eagle Lodge" imageSrc={eagleLodgeImg} href="#" />
+            <Card
+              title="Eagle Lodge"
+              imageSrc={eagleLodgeImg}
+              href="https://backcountrylearning.com/bchs-el-bcl-sfty"
+            />
           </div>
           <div css={[tw`p-2 sm:(w-1/2 p-5) md:(w-1/2 p-5) lg:(w-1/3)`]}>
             <Card title="Pantheon Heli Ranch" imageSrc={pantheonImg} href="#" />
@@ -50,14 +54,14 @@ export const Locations = () => {
             <Card
               title="Mystery Mountain Lodge"
               imageSrc={mysteryMountainImg}
-              href="#"
+              href="https://backcountrylearning.com/bchs-mml-bcl-sfty"
             />
           </div>
           <div css={[tw`p-2 sm:(w-1/2 p-5) md:(w-1/2 p-5) lg:(w-1/3)`]}>
             <Card
               title="Terra Nostra Guest Ranch"
               imageSrc={terraImg}
-              href="#"
+              href="https://backcountrylearning.com/bchs-tnr-bcl-sfty"
             />
           </div>
         </div>

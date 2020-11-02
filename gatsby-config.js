@@ -6,7 +6,7 @@
 
 module.exports = {
   /* Your site config here */
-  pathPrefix: '/bella-coola',
+  // pathPrefix: '/bella-coola',
   plugins: [
     `gatsby-plugin-emotion`,
     {
